@@ -41,6 +41,14 @@ nav div img {
     width: 40px;
 }
 
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
 #shop {
     display: flex;
     align-items: center;
@@ -78,4 +86,17 @@ button {
     width: 150px;
     height: 40px;
     font-weight: 600;
+}
+
+.asideContainer {
+    background-color: #fcf7e3;
+    border-radius: 25px;
+}
+
+.asideFlex {
+    padding: 2em;
+}
+
+h3 {
+    margin-top: 0;
 }
