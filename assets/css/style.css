@@ -18,23 +18,42 @@ body {
     flex-direction: column;
 }
 
-/* ul {
+.main-container {
+    display: flex;
+}
+
+ul {
     display: flex;
     flex-direction: column;
-    row-gap: 65px;
-    background-color: #fcf7e3;
-    width: 300px;
-    height: 100vh;
-    margin-top: 0;
-    font-size: 2rem;
+    padding: 0;
+    row-gap: 25px;
 }
- */
+
+nav {
+    padding: 2em;
+}
+
+aside {
+    background-color: #fcf7e3;
+    width: 250px;
+    flex-shrink: 0;
+}
+
 li {
-    display: inline-block;
     background-color: #f3df86;
-    border-radius: 15px;
-    width: 180px;
+    border-radius: 40px;
+    list-style: none;
     text-align: center;
+    padding: 2em;
+}
+
+.main {
+    width: calc(100vw - 250px);
+    padding-inline: 2em;
+}
+
+ul img {
+    width: 50px;
 }
 
 nav div img {
@@ -100,3 +119,4 @@ button {
 h3 {
     margin-top: 0;
 }
+
